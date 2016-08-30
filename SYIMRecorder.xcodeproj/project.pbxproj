@@ -23,7 +23,7 @@
 		1C20FBFA1D755AA6003A7BE2 /* RecordingSignal008@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBF21D755AA6003A7BE2 /* RecordingSignal008@2x.png */; };
 		1C20FBFD1D756199003A7BE2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C20FBFB1D756199003A7BE2 /* AudioToolbox.framework */; };
 		1C20FBFE1D756199003A7BE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C20FBFC1D756199003A7BE2 /* AVFoundation.framework */; };
-		1C20FC001D756719003A7BE2 /* SYIMAmrCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C20FBFF1D756719003A7BE2 /* SYIMAmrCore.framework */; };
+		1C20FC1B1D75A0A6003A7BE2 /* SYIMAmrCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C20FC1A1D75A0A6003A7BE2 /* SYIMAmrCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +47,7 @@
 		1C20FBF21D755AA6003A7BE2 /* RecordingSignal008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal008@2x.png"; sourceTree = "<group>"; };
 		1C20FBFB1D756199003A7BE2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1C20FBFC1D756199003A7BE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		1C20FBFF1D756719003A7BE2 /* SYIMAmrCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYIMAmrCore.framework; sourceTree = "<group>"; };
+		1C20FC1A1D75A0A6003A7BE2 /* SYIMAmrCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYIMAmrCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			files = (
 				1C20FBFD1D756199003A7BE2 /* AudioToolbox.framework in Frameworks */,
 				1C20FBFE1D756199003A7BE2 /* AVFoundation.framework in Frameworks */,
-				1C20FC001D756719003A7BE2 /* SYIMAmrCore.framework in Frameworks */,
+				1C20FC1B1D75A0A6003A7BE2 /* SYIMAmrCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 		1C20FBD01D755981003A7BE2 /* SYIMRecorder */ = {
 			isa = PBXGroup;
 			children = (
-				1C20FBFF1D756719003A7BE2 /* SYIMAmrCore.framework */,
+				1C20FC1A1D75A0A6003A7BE2 /* SYIMAmrCore.framework */,
 				1C20FBD41D755981003A7BE2 /* AppDelegate.h */,
 				1C20FBD51D755981003A7BE2 /* AppDelegate.m */,
 				1C20FBD71D755981003A7BE2 /* ViewController.h */,
@@ -319,6 +319,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/SYIMRecorder",
+					"$(PROJECT_DIR)/SYIMRecorder",
 				);
 				INFOPLIST_FILE = SYIMRecorder/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -336,6 +337,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/SYIMRecorder",
+					"$(PROJECT_DIR)/SYIMRecorder",
 				);
 				INFOPLIST_FILE = SYIMRecorder/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -364,6 +366,7 @@
 				1C20FBE71D755981003A7BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
