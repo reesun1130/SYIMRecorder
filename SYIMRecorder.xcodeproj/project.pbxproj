@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C20FBD31D755981003A7BE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C20FBD21D755981003A7BE2 /* main.m */; };
+		1C20FBD61D755981003A7BE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C20FBD51D755981003A7BE2 /* AppDelegate.m */; };
+		1C20FBD91D755981003A7BE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C20FBD81D755981003A7BE2 /* ViewController.m */; };
+		1C20FBDC1D755981003A7BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBDA1D755981003A7BE2 /* Main.storyboard */; };
+		1C20FBDE1D755981003A7BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBDD1D755981003A7BE2 /* Assets.xcassets */; };
+		1C20FBE11D755981003A7BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBDF1D755981003A7BE2 /* LaunchScreen.storyboard */; };
+		1C20FBF31D755AA6003A7BE2 /* RecordingSignal001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBEB1D755AA6003A7BE2 /* RecordingSignal001@2x.png */; };
+		1C20FBF41D755AA6003A7BE2 /* RecordingSignal002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBEC1D755AA6003A7BE2 /* RecordingSignal002@2x.png */; };
+		1C20FBF51D755AA6003A7BE2 /* RecordingSignal003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBED1D755AA6003A7BE2 /* RecordingSignal003@2x.png */; };
+		1C20FBF61D755AA6003A7BE2 /* RecordingSignal004@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBEE1D755AA6003A7BE2 /* RecordingSignal004@2x.png */; };
+		1C20FBF71D755AA6003A7BE2 /* RecordingSignal005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBEF1D755AA6003A7BE2 /* RecordingSignal005@2x.png */; };
+		1C20FBF81D755AA6003A7BE2 /* RecordingSignal006@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBF01D755AA6003A7BE2 /* RecordingSignal006@2x.png */; };
+		1C20FBF91D755AA6003A7BE2 /* RecordingSignal007@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBF11D755AA6003A7BE2 /* RecordingSignal007@2x.png */; };
+		1C20FBFA1D755AA6003A7BE2 /* RecordingSignal008@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C20FBF21D755AA6003A7BE2 /* RecordingSignal008@2x.png */; };
+		1C20FBFD1D756199003A7BE2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C20FBFB1D756199003A7BE2 /* AudioToolbox.framework */; };
+		1C20FBFE1D756199003A7BE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C20FBFC1D756199003A7BE2 /* AVFoundation.framework */; };
+		1C20FC001D756719003A7BE2 /* SYIMAmrCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C20FBFF1D756719003A7BE2 /* SYIMAmrCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C20FBCE1D755981003A7BE2 /* SYIMRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYIMRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C20FBD21D755981003A7BE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C20FBD41D755981003A7BE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C20FBD51D755981003A7BE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C20FBD71D755981003A7BE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1C20FBD81D755981003A7BE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1C20FBDB1D755981003A7BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C20FBDD1D755981003A7BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C20FBE01D755981003A7BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C20FBE21D755981003A7BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C20FBEB1D755AA6003A7BE2 /* RecordingSignal001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal001@2x.png"; sourceTree = "<group>"; };
+		1C20FBEC1D755AA6003A7BE2 /* RecordingSignal002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal002@2x.png"; sourceTree = "<group>"; };
+		1C20FBED1D755AA6003A7BE2 /* RecordingSignal003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal003@2x.png"; sourceTree = "<group>"; };
+		1C20FBEE1D755AA6003A7BE2 /* RecordingSignal004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal004@2x.png"; sourceTree = "<group>"; };
+		1C20FBEF1D755AA6003A7BE2 /* RecordingSignal005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal005@2x.png"; sourceTree = "<group>"; };
+		1C20FBF01D755AA6003A7BE2 /* RecordingSignal006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal006@2x.png"; sourceTree = "<group>"; };
+		1C20FBF11D755AA6003A7BE2 /* RecordingSignal007@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal007@2x.png"; sourceTree = "<group>"; };
+		1C20FBF21D755AA6003A7BE2 /* RecordingSignal008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal008@2x.png"; sourceTree = "<group>"; };
+		1C20FBFB1D756199003A7BE2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1C20FBFC1D756199003A7BE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1C20FBFF1D756719003A7BE2 /* SYIMAmrCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SYIMAmrCore.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C20FBCB1D755981003A7BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C20FBFD1D756199003A7BE2 /* AudioToolbox.framework in Frameworks */,
+				1C20FBFE1D756199003A7BE2 /* AVFoundation.framework in Frameworks */,
+				1C20FC001D756719003A7BE2 /* SYIMAmrCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C20FBC51D755981003A7BE2 = {
+			isa = PBXGroup;
+			children = (
+				1C20FBFB1D756199003A7BE2 /* AudioToolbox.framework */,
+				1C20FBFC1D756199003A7BE2 /* AVFoundation.framework */,
+				1C20FBD01D755981003A7BE2 /* SYIMRecorder */,
+				1C20FBCF1D755981003A7BE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C20FBCF1D755981003A7BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C20FBCE1D755981003A7BE2 /* SYIMRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C20FBD01D755981003A7BE2 /* SYIMRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				1C20FBFF1D756719003A7BE2 /* SYIMAmrCore.framework */,
+				1C20FBD41D755981003A7BE2 /* AppDelegate.h */,
+				1C20FBD51D755981003A7BE2 /* AppDelegate.m */,
+				1C20FBD71D755981003A7BE2 /* ViewController.h */,
+				1C20FBD81D755981003A7BE2 /* ViewController.m */,
+				1C20FBDA1D755981003A7BE2 /* Main.storyboard */,
+				1C20FBDD1D755981003A7BE2 /* Assets.xcassets */,
+				1C20FBDF1D755981003A7BE2 /* LaunchScreen.storyboard */,
+				1C20FBE21D755981003A7BE2 /* Info.plist */,
+				1C20FBEA1D755AA6003A7BE2 /* images */,
+				1C20FBD11D755981003A7BE2 /* Supporting Files */,
+			);
+			path = SYIMRecorder;
+			sourceTree = "<group>";
+		};
+		1C20FBD11D755981003A7BE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C20FBD21D755981003A7BE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C20FBEA1D755AA6003A7BE2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1C20FBEB1D755AA6003A7BE2 /* RecordingSignal001@2x.png */,
+				1C20FBEC1D755AA6003A7BE2 /* RecordingSignal002@2x.png */,
+				1C20FBED1D755AA6003A7BE2 /* RecordingSignal003@2x.png */,
+				1C20FBEE1D755AA6003A7BE2 /* RecordingSignal004@2x.png */,
+				1C20FBEF1D755AA6003A7BE2 /* RecordingSignal005@2x.png */,
+				1C20FBF01D755AA6003A7BE2 /* RecordingSignal006@2x.png */,
+				1C20FBF11D755AA6003A7BE2 /* RecordingSignal007@2x.png */,
+				1C20FBF21D755AA6003A7BE2 /* RecordingSignal008@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C20FBCD1D755981003A7BE2 /* SYIMRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C20FBE51D755981003A7BE2 /* Build configuration list for PBXNativeTarget "SYIMRecorder" */;
+			buildPhases = (
+				1C20FBCA1D755981003A7BE2 /* Sources */,
+				1C20FBCB1D755981003A7BE2 /* Frameworks */,
+				1C20FBCC1D755981003A7BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYIMRecorder;
+			productName = SYIMRecorder;
+			productReference = 1C20FBCE1D755981003A7BE2 /* SYIMRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C20FBC61D755981003A7BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SY;
+				TargetAttributes = {
+					1C20FBCD1D755981003A7BE2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1C20FBC91D755981003A7BE2 /* Build configuration list for PBXProject "SYIMRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C20FBC51D755981003A7BE2;
+			productRefGroup = 1C20FBCF1D755981003A7BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C20FBCD1D755981003A7BE2 /* SYIMRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C20FBCC1D755981003A7BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C20FBF91D755AA6003A7BE2 /* RecordingSignal007@2x.png in Resources */,
+				1C20FBF61D755AA6003A7BE2 /* RecordingSignal004@2x.png in Resources */,
+				1C20FBE11D755981003A7BE2 /* LaunchScreen.storyboard in Resources */,
+				1C20FBF41D755AA6003A7BE2 /* RecordingSignal002@2x.png in Resources */,
+				1C20FBF81D755AA6003A7BE2 /* RecordingSignal006@2x.png in Resources */,
+				1C20FBDE1D755981003A7BE2 /* Assets.xcassets in Resources */,
+				1C20FBF31D755AA6003A7BE2 /* RecordingSignal001@2x.png in Resources */,
+				1C20FBF51D755AA6003A7BE2 /* RecordingSignal003@2x.png in Resources */,
+				1C20FBF71D755AA6003A7BE2 /* RecordingSignal005@2x.png in Resources */,
+				1C20FBFA1D755AA6003A7BE2 /* RecordingSignal008@2x.png in Resources */,
+				1C20FBDC1D755981003A7BE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C20FBCA1D755981003A7BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C20FBD91D755981003A7BE2 /* ViewController.m in Sources */,
+				1C20FBD61D755981003A7BE2 /* AppDelegate.m in Sources */,
+				1C20FBD31D755981003A7BE2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C20FBDA1D755981003A7BE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C20FBDB1D755981003A7BE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C20FBDF1D755981003A7BE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C20FBE01D755981003A7BE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C20FBE31D755981003A7BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C20FBE41D755981003A7BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C20FBE61D755981003A7BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/SYIMRecorder",
+				);
+				INFOPLIST_FILE = SYIMRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.SYIMRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C20FBE71D755981003A7BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/SYIMRecorder",
+				);
+				INFOPLIST_FILE = SYIMRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sy.SYIMRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C20FBC91D755981003A7BE2 /* Build configuration list for PBXProject "SYIMRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C20FBE31D755981003A7BE2 /* Debug */,
+				1C20FBE41D755981003A7BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C20FBE51D755981003A7BE2 /* Build configuration list for PBXNativeTarget "SYIMRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C20FBE61D755981003A7BE2 /* Debug */,
+				1C20FBE71D755981003A7BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C20FBC61D755981003A7BE2 /* Project object */;
+}

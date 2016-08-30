@@ -1,0 +1,6 @@
+framework module SYIMAmrCore {
+  umbrella header "SYIMAmrCore.h"
+
+  export *
+  module * { export * }
+}
