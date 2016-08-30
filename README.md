@@ -109,4 +109,4 @@
 
 ### 效果
 
-![intro png](https://github.com/reesun1130/SYIMRecorder/raw/master/amr.PNG)
+![intro png](https://github.com/reesun1130/SYIMRecorder/blob/master/SYIMRecorder/amr.png)
