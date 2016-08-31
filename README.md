@@ -1,5 +1,5 @@
 # IM Recorder
-### SYIMRecorder
+### SY IM Recorder
 
 * 从SYIMKit拆分出来，提供基础的录音和播放控制功能
 * 采用opencore-amr编解码，输出的音频格式为amr
@@ -7,8 +7,8 @@
 
 ### Introduction
 
-* maxRecordFrames：可设置最短录制时间
-* minRecordFrames：可设置最长录制时间
+* maxRecordFrames：可设置最长录制时间
+* minRecordFrames：可设置最短录制时间
 * recordFrames：当前录制时间
 * mPath：输出路径
 * delegate：- (void)syAmrRecorder:(SYIMAmrRecorder *)recorder didUpdateMeters:(float)meters 动态更新音量波动
@@ -73,7 +73,6 @@
 - (void)syAmrRecorderDidFail:(SYIMAmrRecorder *)recorder {
     NSLog(@"syAmrRecorderDidFail");
 //    [self showFailTalkMask];
-    [self.btnRecorder setTitle:@"点击开始录音" forState:UIControlStateNormal];
 }
 
 - (void)syAmrRecorderDidStop:(SYIMAmrRecorder *)recorder {
@@ -88,7 +87,6 @@
     else {
 //        [self hideTalkMask];
     }
-    [self.btnRecorder setTitle:@"点击开始录音" forState:UIControlStateNormal];
     NSLog(@"录音时长：%lds",_amrRecorder.recordFrames);
 }
 
