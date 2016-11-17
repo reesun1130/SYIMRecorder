@@ -43,5 +43,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSMicrophoneUsageDescription</key>
+        <string>请允许此权限访问麦克风</string>
+        <key>NSSpeechRecognitionUsageDescription</key>
+        <string>请允许此权限,开启语音识别功能</string>
 </dict>
 </plist>
